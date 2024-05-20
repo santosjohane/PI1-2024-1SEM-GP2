@@ -22,3 +22,6 @@ Você saber mais a fundo sobre nosso projeto acessando o PDF abaixo:
 
 [Documentação](https://drive.google.com/file/d/13SUlH9nYUvDSCXXJ_6rSeCnO8vQgaEcX/view?usp=sharing)
 
+ou se preferir, acessar o nosso site:
+
+[Cultura Cannabis](https://ariaalves.github.io/cultura-cannabis/)
