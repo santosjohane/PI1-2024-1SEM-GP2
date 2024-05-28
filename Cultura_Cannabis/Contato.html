@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="img/cannabis-solid.svg"
+      type="image/x-icon"
+    />
+    <title>Fale Conosco - Cultura Cannabis</title>
+  </head>
+  <body>
+    <header>
+      <img
+        src="img/logo.svg"
+        alt="Essa imagem é o logotipo da nossa página, ela tem uma flor que representa a Cannabis na cor branca e um fundo no mesmo formato que é verde, além disso, na parte de cima e de baixo temos dois triângulos também na cor verde. Ao lado, temos um texto também verde escrito 'Cultura Cannabis'"
+      />
+      <div>
+        <input type="search" />
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Nosso Trabalho</a></li>
+          <li><a href="artigos.html" target="_blank">Artigos</a></li>
+          <li><a href="Contato.html" target="_blank">Fale Conosco</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2 class="FaleConosco">Fale Conosco</h2>
+        <form class="form" action="envio-email.php" method="post">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+          <label for="mensagem">Mensagem:</label>
+          <textarea
+            id="mensagem"
+            name="mensagem"
+            rows="4"
+            cols="50"
+            required
+          ></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+        <article class="ArtigoFaleConosco">
+        <div class="email-links">
+          <a href="https://mail.google.com/" target="_blank">Gmail</a>
+          <a href="https://outlook.live.com/" target="_blank">Outlook</a>
+          <a href="https://login.live.com/" target="_blank">Hotmail</a>
+          <a href="https://email.uol.com.br/" target="_blank">UOL</a>
+          <a href="https://mail.yahoo.com/" target="_blank">Yahoo</a>
+          <a href="https://protonmail.com/" target="_blank">ProtonMail</a>
+          <a href="https://mail.zoho.com/" target="_blank">Zoho</a>
+        </div>
+      </article>
+    </main>
+    <footer>
+      <img
+        src="img/logo.svg"
+        alt="Essa imagem é o logotipo da nossa página, ela tem uma flor que representa a Cannabis na cor branca e um fundo no mesmo formato que é verde, além disso, na parte de cima e de baixo temos dois triângulos também na cor verde. Ao lado, temos um texto também verde escrito 'Cultura Cannabis'"
+      />
+      <div class="copyright">
+        &copy; 2024 Cultura Cannabis. Todos os direitos reservados.
+      </div>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/fbf29013af.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
